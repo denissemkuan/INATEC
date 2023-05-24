@@ -1,0 +1,33 @@
+body{
+	columns: green;
+}
+
+body{
+	background-color: black;
+	color: white !important; /*OBLIGA A QUE ESTE COLOR TENGA PRIORIDAD
+								Y NO CAMBIE*/
+	font-family: Verdana;
+}
+
+h1 {
+	font-family: Arial;
+}
+
+a {
+	color: inherit;
+}
+
+div{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+body{
+	color: red; /*TODOS LOS TEXTOS DEL URL
+	                 SON ROJOS*/
+}
+
+/*CAMBIAR EL COLOR PARA EL PARRAFO*/
+p{
+	color: blue;
+}
