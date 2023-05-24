@@ -1,11 +1,11 @@
-body{
+body p{
 	columns: green;
 }
 
 body{
 	background-color: black;
-	color: white !important; /*OBLIGA A QUE ESTE COLOR TENGA PRIORIDAD
-								Y NO CAMBIE*/
+	color: white !important; /*OBLIGA A QUE ESTE COLOR TENGA
+	PRIORIDAD Y NO CAMBIE EL COLOR DEL BODY*/
 	font-family: Verdana;
 }
 
@@ -23,11 +23,11 @@ div{
 }
 
 body{
-	color: red; /*TODOS LOS TEXTOS DEL URL
-	                 SON ROJOS*/
+	color: red; /*TODOS LOS TEXTOS DEL URL SON ROJOS, LO
+				    APLICA EN CASCADA*/
 }
 
-/*CAMBIAR EL COLOR PARA EL PARRAFO*/
-p{
+/*CAMBIAR EL COLOR PARA EL PARRAFO POR MEDIO DE UN ID, TIENE MAS PRIORIDAD*/
+#letra{
 	color: blue;
 }
