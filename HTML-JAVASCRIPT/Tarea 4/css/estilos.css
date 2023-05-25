@@ -1,0 +1,28 @@
+/**/
+body{
+    margin: 20px;
+    font-family: Verdana;
+}
+
+/*SELECTOR DE ETIQUETA*/
+textarea
+{
+    width: 200px;
+}
+/*SELECTOR DE ETIQUEA MULTIPLE*/
+p,label
+{
+    font-family: Tahoma;
+}
+
+/*SELECTOR DE ATRIBUTO*/
+input[name="email"]
+{
+    background-color: #eeeeee;
+}
+
+/*SELECTOR ID*/
+#edad
+{
+    color: red;
+}
